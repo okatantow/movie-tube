@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomeScreen.css';
 import Nav from './Nav';
+import Banner from './Banner';
 
 function HomeScreen() {
   return (
@@ -8,6 +9,7 @@ function HomeScreen() {
         {/* nav bar */}
         <Nav/>
         {/* the banner */}
+        <Banner/>
     </div>
   )
 }
